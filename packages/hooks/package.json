@@ -1,0 +1,49 @@
+{
+  "name": "x-rhooks",
+  "version": "1.0.0",
+  "description": "react hooks library",
+  "keywords": [
+    "x-rhooks",
+    "umi hooks",
+    "react hooks"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/x-rhooks.js",
+  "sideEffects": false,
+  "authors": {
+    "name": "alvin0216",
+    "email": "alvin00216@163.com"
+  },
+  "repository": "https://github.com/alvin0216/x-rhooks",
+  "homepage": "https://github.com/alvin0216/x-rhooks",
+  "scripts": {
+    "build": "gulp && webpack-cli"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "package.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0",
+    "react-router": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/query-string": "^6.3.0",
+    "enzyme-adapter-react-16": "^1.15.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^2.6.12",
+    "query-string": "^6.9.0"
+  },
+  "gitHead": "862397d1e613082fc921cf3fb23370407675a3bb"
+}

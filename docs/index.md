@@ -1,21 +1,30 @@
 ---
+title: x-rhooks - React Hooks Library
 hero:
-  title: bhooks
-  desc: bhooks site example
+  title: better hooks library
+  desc: 为 React Hooks 而生
   actions:
-    - text: Getting Started
-      link: /components
+    - text: 快速上手
+      link: /zh-CN/docs/getting-started
 features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
-    title: Feature 1
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
-    title: Feature 2
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
-    title: Feature 3
-    desc: Balabala
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+  - icon: https://gw.alipayobjects.com/zos/bmw-prod/813f5ed9-6bc4-43d4-9f74-ec81ecf35733/k7htg6n4_w144_h144.png
+    title: 使用简单
+    desc: 使用流程组件的方式来简化开发。
+  - icon: https://gw.alipayobjects.com/zos/bmw-prod/7659205c-6637-4fa2-8529-d32e5818304b/k7htflfb_w144_h144.png
+    title: 提炼于实际业务
+    desc: 提炼于业务实际流程，拿来即用。
+  - icon: https://gw.alipayobjects.com/zos/bmw-prod/6319a122-e8b8-497f-9b45-37cfbe77edaa/k7htfx7t_w144_h144.png
+    title: 生产可用
+    desc: 在支付宝多个行业业务使用。
+footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello bhooks!
+## 轻松上手
+
+```bash
+// 安装依赖
+npm i x-rhooks --save
+
+// 使用 Hooks
+import { useModal } from 'x-rhooks';
+```
